@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+}
+
+/****************** Navbar ******************/
+
+.navbar {
+  position: fixed;
+  background-color: #6f6af7;
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+  height: 100px;
+}
+
+.logo {
+  width: 215px;
+  height: 63px;
+  margin-top: 27px;
+  margin-left: 44px;
+}
+
+.nav-items {
+  width: 900px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #ffffff;
+}
+
+.more-menu {
+  display: flex;
+  align-items: baseline;
+  gap: 2.5px;
+}
+
+.down-arrow {
+  width: 8px;
+  height: 8px;
+}
+
+.search-box {
+  display: flex;
+  width: 314px;
+  height: 57px;
+  background-color: #ffffff;
+  border-radius: 63px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.search-para {
+  color: #9f9f9f;
+}
+
+.hamburger-icon {
+  width: 67px;
+  height: 48px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+/****************** Content ******************/
+
+.content {
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 20px;
+}
+
+.comp {
+  width: 356px;
+  height: 407px;
+  margin-left: 129px;
+  margin-top: 180px;
+}
+
+.desc {
+  box-sizing: border-box;
+  height: 419px;
+  width: 700px;
+  margin-top: 174px;
+  background-color: #e5d8ff;
+  color: #6f7373;
+  border: 6px solid #ffffff;
+  box-shadow: inset 3px 5px 27px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 25px;
+}
+
+/****************** Social Icons ******************/
+
+.social-icons {
+  float: right;
+  position: sticky;
+  top: 100px;
+  bottom: 260px;
+
+}
+
+.wa, .fb, .tw{
+  width: 85px;
+  height: 85px;
+  display: block;
+}
+
+/****************** Stats ******************/
+
+.stats {
+  margin-top: 45px;
+  display: flex;
+  width: 1348px;
+  justify-content: space-evenly;
+}
+
+.ques,
+.ans,
+.part,
+.passed {
+  width: 237px;
+  height: 100px;
+  color: #ffffff;
+  box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+  border-radius: 11px;
+  padding: 20px;
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 178.7%;
+  /* or 52px */
+
+  letter-spacing: 0.04em;
+}
+
+.ques {
+  background-color: #929dff;
+}
+
+.ans {
+  background-color: #734cf2;
+}
+
+.part {
+  background-color: #d288ff;
+}
+
+.passed {
+  background-color: #000000;
+}
+
+.support {
+  width: 120px;
+  height: 120px;
+  position: fixed;
+  right: 0;
+  top: 685px;
+  left: 1220px;
+}
+
+/****************** Forms ******************/
+
+.forms {
+  box-sizing: border-box;
+  width: 1190px;
+  height: 500px;
+  background-color: #483eff;
+  margin-top: 50px;
+  margin-left: 80px;
+  border-radius: 21px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.info-section {
+  flex-direction: column;
+}
+
+.info,
+.book,
+.set {
+  width: 300px;
+  height: 100px;
+  margin-left: 153px;
+  margin-top: 50px;
+  box-sizing: border-box;
+  padding: 38px 109px 52px 96px;
+  font-weight: bold;
+  font-size: medium;
+  border-radius: 22px;
+  justify-content: space-evenly;
+}
+
+.info {
+  background-color: #bce0f6;
+  box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.39);
+  font-weight: bold;
+  color: #000000;
+}
+
+.book {
+  color: #ffffff;
+  border: 5px solid #ffffff;
+  border-radius: 22px;
+}
+
+.set {
+  color: #ffffff;
+  border: 5px solid #ffffff;
+  border-radius: 22px;
+}
+
+.your-info {
+  box-sizing: border-box;
+  margin-top: 25px;
+  background-color: #ffffff;
+  width: 600px;
+  height: 450px;
+  margin-left: 80px;
+  border-radius: 19px;
+}
+
+.heading {
+  margin-left: 54px;
+  margin-top: 50px;
+  font-size: x-large;
+  color: #04285A;
+}
+
+.bio {
+  margin-left: 60px;
+  margin-top: 40px;
+  font-size: medium;
+}
+
+.wrap{
+  color: #04285A;
+}
+
+.name,
+.email,
+.phone,
+.marks {
+  padding: 10px;
+  color: #143565;
+}
+
+.btn {
+  box-sizing: border-box;
+  display: flex;
+  width: 107px;
+  height: 60px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 9px;
+  padding: 21px;
+  align-items: center;
+  gap: 8px;
+  margin-left: 460px;
+  margin-top: 90px;
+}
+
+.arrow{
+  width: 25px;
+  height: 20px;
+}
